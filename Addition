@@ -5,3 +5,8 @@ int add;
 add=num1+num2;
 System.out.prinln("Addition: " +add);
 }
+public void division(int num1,int num2)
+{
+  int div;
+  div=num1/num2;
+  System.out.println("Division is:"+div)}
