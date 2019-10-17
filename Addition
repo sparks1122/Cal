@@ -16,13 +16,14 @@ public void subtraction(int num1,int num2)
   int sub;
   sub=num1-num2;
   System.out.println("Subtraction is:"+sub);}
- public void main(int num1,int num2){
+  
+ public void multiply(int num1,int num2){
    int multiply;
    multiply=num1*num2;
    System.out.println("Multiply is : "+multiply)
   }
   
- public int max(int num1,int num2) {
+ public void max(int num1,int num2) {
  int max;
  if (num1<num2){
    max=num2;
@@ -30,8 +31,35 @@ public void subtraction(int num1,int num2)
  else{
    max=num1;
  }
- return max;
+  System.out.println("Maximum Number is :" +max);
  }
  
+ public static void main(String[]args){
+ Scanner sc=new Scanner(System.in);
+ System.out.println("Enter the No1 : ");
+ int num1=sc.nextInt();
+ System.out.println("Enter the No2 : ");
+ int num2=sc.nextInt();
+ 
+ Calculations a=new Calculations();
+ Calculations b=new Calculations();
+ Calculations c=new Calculations();
+ Calculations d=new Calculations();
+ Calculations e=new Calculations();
+ 
+ a.add(num1,num2);
+ b.divition(num1,num2);
+ c.subtraction(num1,num2);
+ d.multiply(num1,num2);
+ e.max(num1,num2);
+ }
+ 
+
+ 
+
+ 
+ 
+ 
+ }
  
 
