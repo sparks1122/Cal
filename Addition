@@ -1,26 +1,32 @@
 import java.util.Scanner;
 class Calculations{
+
 public void add(int num1,int num2)
+{
 int add;
 add=num1+num2;
-System.out.prinln("Addition: " +add);
+System.out.println("Addition: " +add);
 }
+
 public void division(int num1,int num2)
 {
   int div;
   div=num1/num2;
-  System.out.println("Division is:"+div);}
+  System.out.println("Division is:"+div);
+ }
 
 public void subtraction(int num1,int num2)
 {
   int sub;
   sub=num1-num2;
-  System.out.println("Subtraction is:"+sub);}
+  System.out.println("Subtraction is:"+sub);
+ }
   
- public void multiply(int num1,int num2){
+ public void multiply(int num1,int num2)
+ {
    int multiply;
    multiply=num1*num2;
-   System.out.println("Multiply is : "+multiply)
+   System.out.println("Multiply is : "+multiply);
   }
   
  public void max(int num1,int num2) {
@@ -48,12 +54,12 @@ public void subtraction(int num1,int num2)
  Calculations e=new Calculations();
  
  a.add(num1,num2);
- b.divition(num1,num2);
+ b. division(num1,num2);
  c.subtraction(num1,num2);
  d.multiply(num1,num2);
  e.max(num1,num2);
  }
- 
+ }
 
  
 
