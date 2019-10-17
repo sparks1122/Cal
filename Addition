@@ -36,7 +36,7 @@ public void subtraction(int num1,int num2)
  }
  else{
    max=num1;
- }returen max;
+ }
  
   System.out.println("Maximum Number is :" +max);
  }
