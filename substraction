@@ -1,0 +1,5 @@
+public void substract(int num1,num2){
+int sub;
+sub=num1-num2;
+System.out.println("Substract  :"+sub);
+}
