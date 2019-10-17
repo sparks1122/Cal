@@ -16,4 +16,9 @@ public void subtraction(int num1,int num2)
   int sub;
   sub=num1-num2;
   System.out.println("Subtraction is:"+sub);}
+ public static void main(int num1,int num2){
+   int multiply;
+   multiply=num1*num2;
+   System.out.println("Multiply is : "+multiply)
+  }
 
